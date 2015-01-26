@@ -6,3 +6,8 @@
 
 meteor-platform
 twbs:bootstrap
+jquery
+iron:router
+spiderable
+useraccounts:bootstrap
+accounts-password

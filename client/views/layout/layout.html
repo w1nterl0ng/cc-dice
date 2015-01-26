@@ -1,0 +1,9 @@
+<template name="layout">
+    <header>
+        {{> Template.dynamic template = 'navbar'}}
+    </header>
+
+    <article>
+        {{> yield}}
+    </article>
+</template>

@@ -11,17 +11,18 @@ For a live demo click <a href="http://cookiecutter.meteor.com">here</a>.
 
 * <a href="https://github.com/meteor/meteor">Meteor</a>
 * <a href="https://github.com/twbs/bootstrap">Twitter Bootstrap</a> 3 for basic layout
+* Url routing with <a href="https://github.com/EventedMind/iron-router">iron:router</a>
 * User registration via <a href="https://github.com/meteor-useraccounts/bootstrap">useraccounts:bootstrap</a>
 
 
 ### Quick Start
 
 
-Install Meteor from the command line:
+To install Meteor:
 
      curl https://install.meteor.com | /bin/sh
 
-Navigate to the fol     der you want to install cookiecutter-meteor.
+Navigate to the folder you want to install cookiecutter-meteor.
 
 Download cookiecutter-meteor:
 
@@ -31,14 +32,13 @@ Enter the folder:
 
       cd cookiecutter-meteor
 
-Download and update everything:
-
-      meteor update
-
 Run and view your website in a browser at `http://localhost:3000/`:
 
       meteor
 
-Deploy it as a website at `http://myAppName.meteor.com/`:
+Make your changes and additions to the project.
+
+Deploy it as a website at `http://myAppName.meteor.com/` :
 
       meteor deploy myAppName.meteor.com
+

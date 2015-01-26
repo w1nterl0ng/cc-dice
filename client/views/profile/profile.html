@@ -1,0 +1,10 @@
+<template name='profile'>
+    <div class="container">
+        <h2>{{currentUser.username}}</h2>
+        {{#each currentUser.emails}}
+            {{address}}
+        {{else}}
+            Please log in.
+        {{/each}}
+    </div>
+</template>

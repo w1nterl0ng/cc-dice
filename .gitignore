@@ -1,3 +1,9 @@
+# For use with SublimeText and Jetbrains IDE's like WebStorm.
+# The .gitignore file in .meteor already covers /meteor/local.
+
+
+
+
 # Created by .ignore support plugin (hsz.mobi)
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
@@ -46,12 +52,6 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
-
-
-### Meteor template
-.meteor/local
-.meteor/meteorite
-
 
 ### SublimeText template
 # cache files for sublime text
