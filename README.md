@@ -1,7 +1,7 @@
 # cookiecutter-meteor
 
 
-A cookiecutter template for Meteor. It allows you to quickly create a new project and have it up and running in no time.
+A boilerplate template for Meteor. It allows you to quickly create a new project and have it up and running in no time.
 Customize to your liking while making use of some of the best packages the Meteor community has to offer.
 
 For a live demo click <a href="http://cookiecutter.meteor.com">here</a>.
@@ -12,6 +12,7 @@ For a live demo click <a href="http://cookiecutter.meteor.com">here</a>.
 * <a href="https://github.com/meteor/meteor">Meteor</a>
 * <a href="https://github.com/twbs/bootstrap">Twitter Bootstrap</a> 3 for basic layout
 * Url routing with <a href="https://github.com/EventedMind/iron-router">iron:router</a>
+* Loading progress bar with <a href="https://github.com/Multiply/iron-router-progress">iron-router-progress</a>
 * User registration via <a href="https://github.com/meteor-useraccounts/bootstrap">useraccounts:bootstrap</a>
 
 
