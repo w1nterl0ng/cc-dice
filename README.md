@@ -15,7 +15,7 @@ For a live demo click <a href="http://cookiecutter.meteor.com">here</a>.
 * Loading progress bar with <a href="https://github.com/Multiply/iron-router-progress">iron-router-progress</a>
 * User registration via <a href="https://github.com/meteor-useraccounts/bootstrap">useraccounts:bootstrap</a>
 * The web app is <a href="http://www.meteorpedia.com/read/spiderable/">spiderable</a> & has titles + meta tags by <a href="https://github.com/DerMambo/ms-seo">ms-seo</a>.
-
+* Reducing load time with <a href="https://github.com/meteorhacks/fast-render">meteorhacks:fast-render</a>
 
 
 ### Quick Start
