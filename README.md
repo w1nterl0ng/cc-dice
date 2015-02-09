@@ -14,6 +14,8 @@ For a live demo click <a href="http://cookiecutter.meteor.com">here</a>.
 * Url routing with <a href="https://github.com/EventedMind/iron-router">iron:router</a>
 * Loading progress bar with <a href="https://github.com/Multiply/iron-router-progress">iron-router-progress</a>
 * User registration via <a href="https://github.com/meteor-useraccounts/bootstrap">useraccounts:bootstrap</a>
+* The web app is <a href="http://www.meteorpedia.com/read/spiderable/">spiderable</a> & has titles + meta tags by <a href="https://github.com/DerMambo/ms-seo">ms-seo</a>.
+
 
 
 ### Quick Start
@@ -33,7 +35,7 @@ Enter the folder:
 
       cd cookiecutter-meteor
 
-Run and view your website in a browser at `http://localhost:3000/`:
+To run and view your website in a browser at `http://localhost:3000/`:
 
       meteor
 
