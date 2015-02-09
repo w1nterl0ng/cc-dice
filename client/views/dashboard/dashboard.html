@@ -1,0 +1,12 @@
+<template name="dashboard">
+    <div class='container'>
+        <div class="col-md-4 col-md-offset-4">
+            <h3> This is the dashboard page.</h3>
+            {{#if currentUser}}
+                <p>Here we dash dashes.</p>
+            {{else}}
+                <a href="{{pathFor route='login'}}">Click here to login.</a>
+            {{/if}}
+        </div>
+    </div>
+</template>
