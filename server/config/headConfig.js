@@ -1,5 +1,5 @@
 //Meta tags and titles that are statically set. In case a route is not set at startup the default configuration from
-// /client/config/head/defaultHead.js is used.
+// /client/config/defaultHead.js is used.
 
 Meteor.startup(function() {
   SeoCollection.update(

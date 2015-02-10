@@ -1,4 +1,4 @@
-//To change titles and meta tags that are set at server startup view the /server/startup/headConfiguration.js file.
+//To change titles and meta tags that are set at server startup view the /server/config/headConfig.js file.
 //In case no route specific titles & meta tags are set this default will be used:
 
 Meteor.startup(function() {
