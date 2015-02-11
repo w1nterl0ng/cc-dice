@@ -62,7 +62,7 @@ Meteor.startup(function() {
         route_name: 'contact',
         title: 'Project Title | Contact',
         meta: {
-          'description': 'Behold the plentiful ways to contact project Title.'
+          'description': 'Behold the plentiful ways to contact Project Title.'
         }
       }
     },
@@ -114,6 +114,23 @@ Meteor.startup(function() {
         title: 'Project Title | Login & Register',
         meta: {
           'description': 'This is the Project Title login and register page.'
+        }
+      }
+    },
+    {
+      upsert: true
+    }
+  );
+  SeoCollection.update(
+    {
+      route_name: 'dashboard'
+    },
+    {
+      $set: {
+        route_name: 'dashboard',
+        title: 'Project Title | Dashboard',
+        meta: {
+          'description': 'This is the Project Title Dashboard.'
         }
       }
     },
