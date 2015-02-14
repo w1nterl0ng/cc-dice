@@ -1,4 +1,4 @@
-//Checks when the server starts up if aCollection is empty and creates a document if it is.
+//Checks when the server starts up if aCollection is empty and creates documents if it is.
 //
 Meteor.startup(function () {
   if (ACollection.find().count() === 0) {
