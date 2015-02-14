@@ -1,9 +1,9 @@
-//Validates a callFromATemplateHelper and updates it into aCollection.
+//Validate a callFromATemplateHelper and if so update a ACollection.
 //
 Meteor.methods({
-  'callFromATemplateHelper': function (aDocument) {
-    if (aDocument.score === 0) {
-      ACollection.update(aDocument, {$inc: {score: 1}});
+  'callFromATemplateHelper': function (selectedDocId) {
+    if (1 < 2) {
+      ACollection.update(selectedDocId, {$inc: {score: 1}});
     }
   }
 });
