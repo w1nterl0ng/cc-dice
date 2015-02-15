@@ -17,7 +17,7 @@ For a live demo click <a href="http://cookiecutter.meteor.com">here</a>.
 * The web app is <a href="http://www.meteorpedia.com/read/spiderable/">spiderable</a> & has titles + meta tags by <a href="https://github.com/DerMambo/ms-seo">ms-seo</a>.
 * Reducing load time with <a href="https://github.com/meteorhacks/fast-render">meteorhacks:fast-render</a>
 * Auto-discovery admin view with <a href="https://github.com/gterrono/houston/">houston:admin</a>
-* Get additional users connection data with <a href="https://github.com/gterrono/houston/">mizzao:user-status</a>
+* Get additional users connection data with <a href="https://github.com/mizzao/meteor-user-status">mizzao:user-status</a>
 
 ### Quick Start
 
