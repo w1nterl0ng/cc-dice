@@ -1,1 +1,1 @@
-### Keep information here that you want accessibly only by the server, not client. Like api keys.
+### Keep information here that you want accessible only by the server, not client. Like api keys.

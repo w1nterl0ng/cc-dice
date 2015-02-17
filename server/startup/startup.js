@@ -4,37 +4,32 @@ Meteor.startup(function () {
   if (ACollection.find().count() === 0) {
     ACollection.insert({
       score : 3,
-      name : 'a',
+      name : 'Vim',
       date : new Date()
     });
     ACollection.insert({
       score : 6,
-      name : 'b',
+      name : 'Emacs',
       date : new Date()
     });
     ACollection.insert({
       score : 2,
-      name : 'c',
+      name : 'Sublime',
       date : new Date()
     });
     ACollection.insert({
-      score : 3,
-      name : 'd',
+      score : 9001,
+      name : 'WebStorm',
       date : new Date()
     });
     ACollection.insert({
       score : 8,
-      name : 'e',
+      name : 'Notepad++',
       date : new Date()
     });
     ACollection.insert({
       score : 4,
-      name : 'f',
-      date : new Date()
-    });
-    ACollection.insert({
-      score : 8,
-      name : 'g',
+      name : 'Atom',
       date : new Date()
     });
   }

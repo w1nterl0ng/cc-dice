@@ -1,14 +1,10 @@
+<!--We don't have to worry someone will get to this view because of the iron:router beforeAction, see /lib/router.js-->
+
 <template name="dashboard">
-    {{#if currentUser}}
         <div class="container-fluid">
             <div class="row">
                 {{>sidebar}}
                 {{>dashboardMain}}
             </div>
         </div>
-    {{else}}
-        <div class="container">
-            <a href="{{pathFor route='login'}}">Click here to login.</a>
-        </div>
-    {{/if}}
 </template>

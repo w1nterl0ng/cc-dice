@@ -1,5 +1,7 @@
+//You want the different routes in your website to have titles and meta tags for search engines.
+//In case no route specific titles & meta tags are set this default will be used.
 //To change titles and meta tags that are set at server startup view the /server/config/headConfig.js file.
-//In case no route specific titles & meta tags are set this default will be used:
+
 
 Meteor.startup(function() {
   if(Meteor.isClient){
