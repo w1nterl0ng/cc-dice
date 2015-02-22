@@ -1,9 +1,1 @@
-//Validate a callFromATemplateEvent and if so update a ACollection.
-//
-Meteor.methods({
-  'callFromATemplateEvent': function (selectedDocId) {
-    if (1 < 2) {
-      ACollection.update(selectedDocId, {$inc: {score: 1}});
-    }
-  }
-});
+//Keep your secret sauce methods & methods that can't be done by the client here. See /lib/methods/methods.js also.
